@@ -1,0 +1,41 @@
+a:link, a:visited
+{
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding:3%;
+}
+
+a:hover
+{
+	opacity:0.5
+}
+
+th
+{
+	border-radius:0.9em;
+}
+th:hover
+{
+	opacity:0.7;
+}
+.cc:link
+{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+
+}
+.lin a:link, a:visited
+{
+	padding-right:30%;
+	padding-left:30%;
+}
+.ig td:hover
+{
+	opacity:0.5;
+}
+.ig td
+{
+	border-radius:0.5em;
+}

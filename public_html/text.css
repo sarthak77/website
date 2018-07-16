@@ -1,0 +1,21 @@
+@font-face
+{
+	font-family:sf;
+	src:url(LDFComicSansBold.ttf);
+	font-family:ff;
+	src:url(LDFComicSansLight.ttf);
+}
+h3
+{
+	font-family:sf;
+	margin:2.5em;
+	font-size:2.5em;
+
+}
+p
+{
+	font-family:ff;
+	margin:2.5em;
+	font-size:2em;
+
+}

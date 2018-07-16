@@ -1,0 +1,124 @@
+.foot
+{
+	border-radius:1em;
+	height:80%;
+	width:80%;
+
+}
+
+.foot:hover
+{
+	opacity:0.5;
+}
+
+.tooltip {
+	position:relative;
+    display: inline-block;
+}
+
+@font-face
+{
+        font-family:ff;
+        src:url(LDFComicSansLight.ttf);
+}
+
+.tooltip .tooltiptext {
+        visibility: hidden;
+	width:500%;
+	height:10%;
+        color: grey;
+        text-align: center;
+	font-family:ff;
+	font-size:200%;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+	top:190%;
+	left:-1%;
+}
+
+.tooltip:hover .tooltiptext {
+        visibility: visible;
+}
+
+.tooltip .two {
+        visibility: hidden;
+        width:500%;
+        height:10%;
+        color: grey;
+        text-align: center;
+        font-family:ff;
+        font-size:200%;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top:190%;
+        left:-100%;
+}
+
+.tooltip:hover .two {
+        visibility: visible;
+}
+
+.tooltip .three {
+        visibility: hidden;
+        width:500%;
+        height:10%;
+        color: grey;
+        text-align: center;
+        font-family:ff;
+        font-size:200%;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top:190%;
+        left:-200%;
+}
+
+.tooltip:hover .three {
+        visibility: visible;
+}
+
+.tooltip .four {
+        visibility: hidden;
+        width:500%;
+        height:10%;
+        color: grey;
+        text-align: center;
+        font-family:ff;
+        font-size:200%;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top:190%;
+        left:-300%;
+}
+
+.tooltip:hover .four {
+        visibility: visible;
+}
+
+.tooltip .five {
+        visibility: hidden;
+        width:500%;
+        height:10%;
+        color: grey;
+        text-align: center;
+        font-family:ff;
+        font-size:200%;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top:190%;
+        left:-400%;
+}
+
+.tooltip:hover .five {
+        visibility: visible;
+}
+
